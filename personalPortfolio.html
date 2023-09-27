@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salimatou's Portfolio</title>
+    <link rel="stylesheet" href="personalport.css">
+    <script src="https://kit.fontawesome.com/6be9227da0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="IMG_0694 2.JPG" class="logo"/>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemnu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Salimatou</span><br>Diallo</h1>
+        </div>
+    </div>
+
+</div>
+<!--about me section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">ABout Me</h1>
+                <p>I'm a junior at the University of Norther Iowa, 
+                    innitially pursuied Biochemistry and Biology. However, 
+                    a winter break adventure into Harvad's CS50 course ignited
+                    my passion for programming. Creating programs that solved 
+                    my "what if" questions fascinated me.<br>
+                    Transitioning to Computer Science, Physics, and Chemistry
+                    became my ambitious choice after enjoying introductory to
+                    programming classes last semester.<br>Currently seeking internships
+                    for the summer of 2024 to enhance my skills and the opportunity to 
+                    immerse myself in the programming world. 
+                    <br>My ultimate goal is continuous learning, aspiring for a master's 
+                    and Ph.D. post undergrad. I am self-taught in various languages and 
+                    embrace new ones.  
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('leadership')">Leadership</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>MIT App Inventor</span></li>
+                        <li><span>Data Collection & Analysis</span></li>
+                        <li><span>Research</span></li>
+                        <li><span>Arduino</span></li>
+                        <li><span>C+</span></li>
+                        <li><span>Lab Origin</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="leadership">
+                    <ul>
+                        <li><span>Northern Iowa Student Government (NISG) August 2020 - September 2021</span><br>Senator and Committee Chair</li>
+                        <li><span>Muslim Student Association (MSA) August 2021 - Present</span><br>Vice President</li>
+                        <li><span>African Union (AU) August 2021 - Present</span><br>President</li>
+                        <li><span>Women In Computing May 2023 - Present</span><br>Treasurer</li>
+                        <li><span>Housing and Dining August 2021 - December 2021</span><br>Resident Assistant (RA)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University of Northern Iowa (UNI) - May 2025</span><br>Computer Science, Physics, Chemistry</li>
+                        <li><span>Iowa City High School - May 2020</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----Experience-->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="experience-list">
+            <div>
+                <i class="fa-solid fa-atom"></i>
+                <h2>Research Assitant - Department of Physics</h2>
+                <p>Collaborated with the department head to analyze previously collected data. 
+                    Translates data from the machine's language to human readable integers. 
+                    Utilizes Python and LabOrigin for data calculations and analysis</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Research Assitant - Department of Computer Science</h2>
+                <p>Collaborate with professor and students to create a mood tracking app for students. 
+                    Plan to optimize student performance based on collected data. 
+                    Using the MIT app builder</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microscope"></i>
+                <h2>Virtual Summer Experience for Early Researchers(VSEER) - Louis Stokes Alliance for Minority Participation(LSAMP) </h2>
+                <p>Learned about data collection, analysis, and interpretation. Successfully conduct research in a lab. 
+                    Articulated, created, and presented research findings in a poster 
+                    Explored various research fields by visiting scientists' labs. 
+                    Learned the scientific research method through discussions, projects, and assignments</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----Projects-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="scraptcheats.png">
+                <div class="layer">
+                    <h3>Scraptch Eats</h3>
+                    <p>
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="connectcrave.png">
+                <div class="layer">
+                    <h3>Connect Crave</h3>
+                    <p>
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="stock.jpg">
+                <div class="layer">
+                    <h3>StockCast</h3>
+                    <p>
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="weather.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="Aliexpress.png">
+                <div class="layer">
+                    <h3>E-ProtoSimule</h3>
+                    <p>
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 cladd="sub-title">Contact</h1>
+                <p><i class="fa-regular fa-envelope"></i>diallos@uni.edu</p>
+                <p><i class="fa-solid fa-phone"></i>319-359-0898</p>
+                <div class="social-icons">
+                    <a href="http://www.linkedin.com/in/salimatou-diallo-4950771b8"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/salimatu.jalloh.733/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/diallos2?tab=overview&from=2023-08-01&to=2023-08-31"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Salimatou CS Resume-2.pdf" download class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <input name="Message" rows="5" placeholder="Your Message">
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemnu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script>
+    const scriptURL='URL'
+    const form=document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succenssfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error', error.message))
+
+    })
+</script>
+</body>
+</html>
+

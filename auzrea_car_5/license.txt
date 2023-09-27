@@ -1,0 +1,11 @@
+Model Information:
+* title:	Auzrea Car 5
+* source:	https://sketchfab.com/3d-models/auzrea-car-5-164281d84b0f47adaca7210970020929
+* author:	MML0385 (https://sketchfab.com/MML0385)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Auzrea Car 5" (https://sketchfab.com/3d-models/auzrea-car-5-164281d84b0f47adaca7210970020929) by MML0385 (https://sketchfab.com/MML0385) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
